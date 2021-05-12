@@ -8,8 +8,7 @@
     <script src='https://aframe.io/releases/0.9.2/aframe.min.js'></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script> 
-     <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+   <!--  <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script> -->
 
     <script>
         THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
@@ -26,10 +25,11 @@
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
         
                                                             
-      <a-text value="Hello" scale="15 15 15" look-at="[gps-camera]" align="center" gps-entity-place="latitude:6.032133; longitude:80.789848;"></a-text>
+        <a-text value="mmmmm" scale="15 15 15" look-at="[gps-camera]" align="center" gps-entity-place="latitude:6.032133; longitude:80.789848;"></a-text>
       
     
-       
+      <!--  <a-text value="Hello, World!"></a-text> -->
+      
     <a-camera gps-camera rotation-reader></a-camera>
 </a-scene>
 <div class="centered">
